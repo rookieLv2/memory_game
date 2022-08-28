@@ -1,76 +1,86 @@
-<!-- index.html -->
-
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Memory Game</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Pokemon_card" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon_card</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body >
+    <section class="memory_game">
+        
+        <div class="memory_card">
+            <img class="back" src="./img/001.png" alt="妙蛙種子" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/001.png" alt="妙蛙種子" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-  <body>
-    <h1>Godbobo memory game</h1>
-    <section class="memory-game">
-      <div class="memory-card" data-framework="react">
-        <img class="front-face" src="img/react.svg" alt="React" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/004.png" alt="小火龍" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/004.png" alt="小火龍" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="react">
-        <img class="front-face" src="img/react.svg" alt="React" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/007.png" alt="傑尼龜" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/007.png" alt="傑尼龜" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <!-- <div class="memory-card" data-framework="angular">
-        <img class="front-face" src="img/angular.svg" alt="Angular" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/024.png" alt="皮卡丘" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/024.png" alt="皮卡丘" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="angular">
-        <img class="front-face" src="img/angular.svg" alt="Angular" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/039.png" alt="胖丁" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/039.png" alt="胖丁" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="ember">
-        <img class="front-face" src="img/ember.svg" alt="Ember" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/175.png" alt="波克比" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/175.png" alt="波克比" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="ember">
-        <img class="front-face" src="img/ember.svg" alt="Ember" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/311.png" alt="正電拍拍" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/311.png" alt="正電拍拍" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="vue">
-        <img class="front-face" src="img/vue.svg" alt="Vue" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
+        <div class="memory_card">
+            <img class="back" src="./img/393.png" alt="波加曼" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
+        <div class="memory_card">
+            <img class="back" src="./img/393.png" alt="波加曼" >
+            <img class="front" src="./img/card.png" alt="card" >
+        </div>
 
-      <div class="memory-card" data-framework="vue">
-        <img class="front-face" src="img/vue.svg" alt="Vue" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
-
-      <div class="memory-card" data-framework="backbone">
-        <img class="front-face" src="img/backbone.svg" alt="Backbone" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
-
-      <div class="memory-card" data-framework="backbone">
-        <img class="front-face" src="img/backbone.svg" alt="Backbone" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
-
-      <div class="memory-card" data-framework="aurelia">
-        <img class="front-face" src="img/aurelia.svg" alt="Aurelia" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
-
-      <div class="memory-card" data-framework="aurelia">
-        <img class="front-face" src="img/aurelia.svg" alt="Aurelia" />
-        <img class="back-face" src="img/js-badge.svg" alt="Memory Card" />
-      </div>
-    </section> -->
-    <!-- <script src="./script.js"></script> -->
-  </body>
+    </section>
+</body>
 </html>
