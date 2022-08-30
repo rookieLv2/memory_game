@@ -37,9 +37,7 @@ body{
     border-radius: 30px;
 }
 
-.front{
-    transform: rotateY(0deg);
-}
+
 
 .back{
     position: absolute;
@@ -47,17 +45,21 @@ body{
     height: 190px;
 }
 
-.memory_card:hover .front{
-    transform: rotateY(180deg);
+.front{
+    transform: rotateY(0deg);
 }
+
+/* .memory_card:hover .front{
+    transform: rotateY(180deg);
+} */
 
 .back{
     transform: rotateY(-180deg);
 }
 
-.memory_card:hover .back{
+/* .memory_card:hover .back{
     transform: rotateY(0deg);
-}
+} */
 
 
 
