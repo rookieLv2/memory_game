@@ -53,6 +53,10 @@ body{
     transform: rotateY(180deg);
 } */
 
+.front.flip{
+    transform: rotateY(180deg);
+}
+
 .back{
     transform: rotateY(-180deg);
 }
@@ -60,6 +64,10 @@ body{
 /* .memory_card:hover .back{
     transform: rotateY(0deg);
 } */
+
+.back.flip{
+    transform: rotateY(0deg);
+}
 
 
 
